@@ -98,8 +98,10 @@ if __name__ == "__main__":
     aleatApp = aleat()
     holaApp = hola()
     adiosApp = adios()
+    sumaApp = suma()
     testWebApp = webApp("localhost", 1234, {'/app': anApp,
                                             '/other': otherApp,
                                             '/aleat': aleatApp,
                                             '/hola': holaApp,
-                                            '/adios': adiosApp})
+                                            '/adios': adiosApp,
+                                            '/suma': sumaApp})
